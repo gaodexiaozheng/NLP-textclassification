@@ -1,5 +1,5 @@
 # NLP-textclassification
-TextClassification including TextCNN,TextRCNN,Bert, Albert, Roberta, UDA, Longformer, etc. 
+TextClassification including TextCNN,TextRCNN, DPCNN,Bert, Albert, Roberta, UDA, Longformer, etc. 
 
 ## single_label_job_normal_model
 This directory is designed for the text classification that one sentence only contains one label.
