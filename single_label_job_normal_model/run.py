@@ -1,8 +1,8 @@
 import torch
 import numpy as np
 from importlib import import_module
-from single_label_job.train_eval import train,init_network,predict
-from single_label_job.utils import build_dataset,build_iterator,build_predict_dataset,pred_iterator
+from single_label_job_normal_model.train_eval import train,init_network,predict
+from single_label_job_normal_model.utils import build_dataset,build_iterator,build_predict_dataset,pred_iterator
 import argparse
 parser = argparse.ArgumentParser(description='Chinese Text Classification')
 parser.add_argument('--model', type=str, required=True,

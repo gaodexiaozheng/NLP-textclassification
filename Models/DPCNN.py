@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 from transformers import BertTokenizer
-from single_label_job.utils import loss_fn
+from single_label_job_normal_model.utils import loss_fn
 import os
 class Config(object):
 
